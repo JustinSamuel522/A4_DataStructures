@@ -38,9 +38,19 @@ int main(void){
     else {
         break;  // Terminate when the last window is closed
     } 
+
+    // int checker = scanf("%s %d", command, &window_id);
+    // if (checker == EOF){
+    //   break;
+    // }
+
   }
 
+
+
   freelist(&head);
+
+
 
   return 0;
 }
